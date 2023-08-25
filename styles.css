@@ -88,6 +88,10 @@ body {
   color: #ffffff;
 }
 
+.header .navbar.active {
+  right: 0;
+}
+
 .header .navbar a:hover {
   color: var(--primary-color);
   border-bottom: 0.1rem solid var(--primary-color);
@@ -150,6 +154,10 @@ body {
   width: 35rem;
   background: #ffffff;
   padding: 0 1.5rem;
+}
+
+.header .cart-items-container.active {
+  right: 0;
 }
 
 .header .cart-items-container .cart-item {
